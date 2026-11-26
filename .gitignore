@@ -1,0 +1,31 @@
+# Keil 生成的构建文件
+**/Project/Objects/
+**/Project/Listings/
+**/Project/build_log_archive/
+*.o
+*.elf
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.log
+/build/
+
+# 本地 IDE 与调试配置
+*.uvoptx
+*.uvguix.*
+*.uvprojx.bak
+JLinkSettings.ini
+JLinkLog.txt
+.vscode/
+.idea/
+
+# 系统文件与本地连接配置
+Thumbs.db
+desktop.ini
+.DS_Store
+*.pem
+*.key
+secrets.h
+wifi_config.h

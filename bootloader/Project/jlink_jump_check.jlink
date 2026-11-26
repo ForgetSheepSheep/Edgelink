@@ -1,0 +1,6 @@
+connect
+h
+mem32 0x08040000,2
+mem32 0xE000ED08,1
+regs
+exit
